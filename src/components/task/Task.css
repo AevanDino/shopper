@@ -1,0 +1,59 @@
+
+
+#button {
+    background-color: #FFC7B8;
+}
+
+.taskContainer {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #FDF9F0;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 10px 0px 10px 0px;
+}
+
+.taskContainer .box1 {
+    width: 75%;
+    /* padding: 0px 20px 0px 20px; */
+    margin-right: 10px;
+    flex-grow: 75%;
+    background-color: transparent;
+    display: flex;
+}
+
+.taskContainer .box2 {
+    flex-grow: 20%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete {
+    color: #BC6452;
+    background-color: #FFC7B8;
+    border-color: #BC6452;
+    border-radius: 20px;
+    margin: 20px 0px 20px 0px;
+    width: 50px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 0.8em;
+    padding: 10px;
+}
+
+.complete {
+    color: #198800;
+    background-color: #7aff90;
+    border-color: #198800;
+    border-radius: 20px;
+    margin: 20px 0px 20px 0px;
+    width: 50px;
+    height: 50px;
+    font-weight: bolder;
+    font-size: 0.8em;
+    padding: 10px;
+}
